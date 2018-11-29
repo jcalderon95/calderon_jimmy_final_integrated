@@ -27,13 +27,55 @@
             </nav><!--end mainNav-->
         </header><!--end mainHeader-->
 
-        <section id="contentCon">
-        	<div id="content1"><p>Content Area 1</p></div><!--end content1-->
-        	<div id="content2"><p>Content Area 2</p></div><!--end content2-->
-        </section><!--end contentCon-->
+    <div class="mainContact">
+
+        <section class="contact">
+        <h2>Contact Us</h2>
+
+            <section class="contactFlag">
+            <h3 class="hidden">Visit us or Send a Message</h3>
+                <img src="images/contact_flag.png" alt="Canadian Flag">
+                <p>Come visit us or send us a message</p>
+            </section>
+
+            <section class="mapArea">
+                <h2 class="hidden">Victoria Park Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4000.6080899475555!2d-81.25099590423429!3d42.989146586451845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6f658d87a560bca3!2sVictoria+Park!5e0!3m2!1sen!2sca!4v1543463626430" width="369" height="236"  style="border:0" allowfullscreen></iframe>
+
+                <ul>
+                    <li>580 Clarence St.</li>
+                    <li>London, ON, N6A 3N1</li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="form">
+                <h2 class="hidden">Contact Form</h2>
+                <h2>Your Information</h2>
+
+                     <form id="contactForm" action="form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" required id="name" name="fullName" size="30" placeholder="Your Name">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" required id="email" size="30" placeholder="Your Email">
+                    
+                    
+                    <label for="subject">Subject:</label>
+                    <input type="text" required id="subject" size="30" placeholder="Your Subject">
+                    
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments" required cols="50" rows="8"></textarea>               
+                   
+                    <input id="submit" type="submit" value="Submit">
+                    </form>
+        </section><!--end contactArea-->  
+
+    </div>
 
         <footer id="mainFooter">
         <nav id="footerNav">
+        <h2 class="hidden">Footer Navigation</h2>
             <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Events</a></li>
