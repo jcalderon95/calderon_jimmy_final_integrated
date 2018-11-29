@@ -64,7 +64,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 #siteContainer 
 {
 	margin: 0 auto;
-	width: 920px;
+	width: 960px;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -214,6 +214,39 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 
 /*----->HOME PAGE<----*/
 
+.heroCon
+{
+	width: 960px;
+	height: 333px;
+	border-bottom: solid 1px #dddddd;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hero
+{
+  height: 250px;
+  width: 921px;
+  background: url(../images/home_header.jpg) no-repeat bottom; 
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero h2
+{
+	text-align: center;
+	color: #e1b36a;
+	font-size: 30px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	margin-bottom: 6px;
+}
+
+
 .productDescLargeLeft 
 {
 	width: 410px;
@@ -222,6 +255,60 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 .productDescLargeRight 
 {
 	width: 410px;
+}
+
+.toursEvents
+{
+	width: 960px;
+	height: 380px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+
+.toursEvents h3
+{
+	font-size: 26px;
+/*	font-style: oblique;*/
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top: 12px;
+	margin-bottom: 5px;
+}
+
+.toursEvents h3 a
+{
+	color: #e1b36a;
+}
+
+.toursEvents h3 a:hover
+{
+	color: #3f602c;
+	border-bottom: solid 1px;
+}
+
+.toursEvents p
+{
+	font-size: 20px;
+	font-weight: normal;
+	color: #585755;
+	line-height: 27px;
+
+}
+
+.tours
+{
+	margin-left: 20px;
+	margin-right: 50px;
+	margin-top: 40px;
+}
+
+.events
+{
+	margin-top: 40px;
+	margin-left: 50px;
 }
 
 /*----->END OF HOME PAGE<-----*/
