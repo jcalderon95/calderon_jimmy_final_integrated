@@ -3,7 +3,8 @@
 
 
 /*basic reset*/
-/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
+/*browsers have built in values for elements so we'll reset a few things to zero, 
+you can add to this or remove items as needed*/
 
 div,p,body,header,footer,section,article,nav 
 { 
@@ -46,14 +47,14 @@ a:hover, a:active
 	text-decoration:none; 
 }
 
-/*hide elements from browser but show for doc outline*/
+
 
 .hidden
 {
 	display: none;
 }
 
-/*section is block level and no width specidied therefore stretches full screen*/
+
 #topBar
 {
 	margin-top: 10px;
@@ -62,8 +63,7 @@ a:hover, a:active
 }
 
 /*Site Container*/
-/*This is essentially a box that we place the whole site in.  
-We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 20px (960px) so it fits on 1024x768 screens.*/
+
 
 #siteContainer 
 {
@@ -73,7 +73,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-right: 20px;
 }
 
-/*This is a flex container*/
+/*----->Header<-----*/
+
 #mainHeader
 {
 	margin-top: 0px;
@@ -84,7 +85,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	background-color: #eaf4e4;
 }
 
-/*This is a flex item*/
+
 #logo
 {
 	width: 200px;
@@ -93,8 +94,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 	padding-left: 20px;
 }
 
-/*This is also a flex item*/
-/*We use margin left auto to send it all the way to the right*/
+
 #mainNav 
 {
 	margin-left: auto;
@@ -166,7 +166,8 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 150px;
+	margin-left: auto;
+	margin-right: 80px;
 }
 
 #icons img
@@ -480,7 +481,7 @@ We center the box using margin 0 auto and give it a fixed width of 920 + 20px + 
 {
 	font-size: 20px;
 	font-weight: bold;
-	color: #585755;
+	color: #676663;
 	line-height: 30px;
 	padding-top: 25px;
 }
@@ -540,7 +541,7 @@ input, textarea
 }
 
 
-#comments
+#message
 {
   width: 360px;
   height: 200px;
